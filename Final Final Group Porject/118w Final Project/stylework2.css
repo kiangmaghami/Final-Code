@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*===Navbar===*/
+.navi-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:110px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(244, 244, 244, 0.5);
+    z-index: 500;
+
+}
+
+.logo{
+    display: inline;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:#fff;
+}
+
+nav ul li a{
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration:white;
+    font-size:14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-emphasis-color: white;
+    color:blue;
+}
+
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+    text-decoration-color: whitesmoke;
+    object-position: content;
+}
+
+#section1{
+    background: url(burger-talk-rest.jpg);
+    background-size: cover;
+    background-position: center;
+    height:25em;
+}
+
+#section1 h2{
+    display: flex;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+    /*================*/
+
+
+
+/*=======About Section=======*/
+.about{
+    position: relative;
+    width: 100%;
+    padding: 45px 0 0 0;
+}
+
+.about .section-header{
+    margin-bottom:30px;
+}
+.about .about-text{
+    position: relative;
+    width: 100%;
+}
+
+.text-center h3{
+font-style: italic;
+color:#FF4E62;
+text-decoration: underline;
+}
+.about .about-img{
+    border-radius:15px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.about .about-img .col-6{
+padding:0;
+overflow:hidden;
+}
+
+.about .about-img img{
+    width: 100%;
+}
+
+.about .about-text .btn{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.about .about-detail h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*=======Deal Section======*/
+.deal-box{
+    padding: 30px;
+    background: rgb(255, 223, 97);
+    margin-bottom: 30px;
+    border-radius: 0px 10px;
+    text-align: center;
+}
+
+.deal-box h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*==Bottom area==*/
+
+
+.footer-sec{
+    padding-top: 115px;
+    background: linear-gradient(#1b1b1b,#1f1d1d);
+}
+
+@media(max-width:991px){
+    .footer-sec .footer-widget{
+        margin-bottom:30px;
+    }
+}
+.footer-sec .footer-widget p{
+    color:#fff;
+}
+.footer-sec .footer-widget h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+.footer-sec .footer-address span{
+    display: block;
+    margin-bottom: 15px;
+    color:#fff;
+}
+/*==member==*/
+.member h3{
+color:white;
+margin: 0;
+position: absolute;
+top: 40%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+text-decoration: underline;
+font-style: italic;
+}
+.naviB{
+    background-image: url(burger-talk-rest.jpg);
+    background-size: cover;
+    background-position: center;
+    height:25em;
+}
+#cow{
+    background-image: url(cow-cuts.jpg);
+    background-size: 55%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height:25em;
+}
+#cow h2{
+    color:black;
+    margin-left: 8%;
+    
+}
+#cow h6{
+    color: black;
+    margin-left: 8%;
+    
+}
+/*==sign-up==*/
+
+#sign-up{
+    background-image: url(Beef-Cut-Diagram.jpg);
+    background-size: 55%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.form {
+   text-align: center;
+   margin-left: 10%;
+   background-color:white;
+   padding: 30px;
+   display: flex;
+   width: 300px;
+   max-width: 500px;
+   margin-right: 35%;
+   flex-direction: column;}
+
+    button[type = "submit"] {
+        background-color: rgb(243, 204, 76);
+        padding: 20px;
+        color: black;
+        box-sizing: border-box;
+        font-weight: normal;
+        border:black;}
+
+.login-page{
+    width: 95%;
+    margin-top:12%}
+    
+button[type = "text"],
+button[type = "username"],
+button[type = "email"],
+button[type = "password"] {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: normal;
+    border: black;}
+
+.enter-here{
+    color:black;
+    text-decoration: underline;
+    margin-left: 10%;
+}
